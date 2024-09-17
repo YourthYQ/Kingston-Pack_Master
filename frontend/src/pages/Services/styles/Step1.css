@@ -1,0 +1,79 @@
+.card1 {
+  background-color: #fff;
+  border: 0.07em solid #f0d6af;
+  border-radius: 0.63em;
+  padding: 4em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 33.6em;
+  max-width: 62%;
+  margin: 0 auto;
+}
+
+.card1 .left {
+  display: flex;
+  flex-direction: column; /* Stack the text and button vertically */
+  justify-content: space-between; /* Vertically center the content in the right section */
+  margin-right: 3em;
+}
+
+.card1 img {
+  height: 18em;
+  width: 17em;
+}
+
+.card1 .text {
+  text-align: left;
+  max-width: 400px;
+}
+
+.card1 .text h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5em;
+  color: #4a4a5a;
+  margin-bottom: 20px;
+}
+
+.card1 .text p {
+  font-size: 1em;
+  color: #4a4a5a;
+  margin-bottom: 20px;
+}
+
+.card1 .text p strong {
+  font-weight: 600;
+}
+
+.card1 .text button {
+  background-color: #4a4a5a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 3em;
+}
+
+
+/* Media Query: 为小屏幕设定样式 */
+@media (max-width: 1080px) {
+    .card1 {
+      flex-direction: column-reverse; /* 将左右布局改为上下布局 */
+      padding: 1.5em;
+      height: auto; /* 让卡片根据内容自动扩展 */
+      max-width: 90%;
+    }
+  
+    .card1 .left {
+      margin-right: 0; /* 移除左右margin */
+    }
+  
+    .card1 img {
+      height: auto; /* 让图片高度自动调整 */
+      width: 100%; /* 图片在小屏幕上占据整个父容器的宽度 */
+      max-width: 100%; /* 确保图片不会溢出 */
+      margin-bottom: 1.5em; /* 为下方留出间距 */
+    }
+  }

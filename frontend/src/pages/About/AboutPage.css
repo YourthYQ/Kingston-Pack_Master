@@ -1,0 +1,62 @@
+/* About.css */
+
+.about-container {
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #28a745;
+  }
+  
+  .about-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #17a2b8;
+  }
+  
+  ul.features-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.features-list li {
+    margin-bottom: 15px;
+  }
+  
+  ul.features-list li strong {
+    color: #007bff;
+  }
+  
+  ul.tech-stack-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.tech-stack-list li {
+    margin-bottom: 10px;
+  }
+  
+  .challenges-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .challenges-container p {
+    margin-bottom: 15px;
+  }

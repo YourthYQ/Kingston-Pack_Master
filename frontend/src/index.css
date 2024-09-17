@@ -1,0 +1,113 @@
+:root {
+  color-scheme: light dark;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #006affc4;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.button_div {
+  display: flex;
+  column-gap: 1em;
+}
+
+/* Add background image to the body */
+body {
+  height: 100vh; /* Ensure the background covers the full height of the viewport */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+.floating-image {
+  position: fixed; /* The div will be fixed */
+  bottom: 8vh; /* Distance from the top */
+  right: 3vw; /* Distance from the right */
+  width: 25em; /* Set the width of the div */
+  height: 16em; /* Set the height of the div */
+  
+}
+
+/* Ensure the root element stretches to the full viewport */
+#root {
+  min-height: 100vh;
+}
+
+.custom-menu {
+  padding: 4px; /* Add a border at the bottom */
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5em;
+}
+
+.custom-menu-left {
+  display: flex;
+  justify-content: flex-start; /* Ensure the first item stays on the left */
+}
+
+.custom-menu-right {
+  display: flex;
+  justify-content: flex-end; /* Ensure other items align to the right */
+}
+
+.body {
+  padding: 5vh;
+  color: rgba(0, 0, 0, 0.767);
+  border: 2px; /* Light gray border */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Optional: Adds a subtle shadow */
+  max-width: 60em; /* Adjust to your desired max width */
+  margin: 0; /* Remove the centering */
+  margin-top: 5vh;
+  margin-left: 5vw;
+  padding: 20px; /* Adjust padding to your preference */
+}
+
+input[type="number"] {
+  background-color: #ffffff; /* Set white background */
+  border: 1px solid #ccc; /* Light grey border */
+  color: #000000; /* Set text color to black */
+  border-radius: 8px; /* Rounded corners */
+  width: 10em; /* Set the width */
+  height: 1.5em; /* Set the height */
+  padding: 8px; /* Padding inside the input */
+  margin-bottom: 10px; /* Space between inputs */
+  font-size: 14px; /* Set text size */
+}
+
+input[type="number"]::placeholder {
+  color: #888888; /* Lighter color for placeholder */
+}

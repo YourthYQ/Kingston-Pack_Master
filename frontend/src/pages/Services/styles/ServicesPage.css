@@ -1,0 +1,21 @@
+.main-content {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fbf8f4 !important;
+
+  text-align: center;
+  padding: 3.75em 1.25em;
+}
+
+.main-content h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.25em;
+  color: #4a4a5a;
+  margin-bottom: 1em;
+}
+
+.main-content p {
+  font-size: 1.125em;
+  color: #4a4a5a;
+  margin-bottom: 2.5em;
+}

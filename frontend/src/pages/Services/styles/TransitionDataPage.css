@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.ubuntu-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.card7 {
+  background-color: #fff;
+  border: 0.07em solid #f0d6af;
+  border-radius: 0.63em;
+  padding: 4em 3em 4em 3em;
+  height: 33.6em;
+  max-width: 62%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box; /* Ensure padding is included inside the card's width */
+}
+
+.card7 .title {
+  text-align: right;
+  color: #4a4a5a;
+}
+
+.card7 .title h2 {
+  font-size: 1.7em;
+}
+
+.card7 .title p {
+  font-size: 1.2em;
+}
+
+.card7 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card7 .lower {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: right;
+}
+
+.card8 {
+  background-color: #ffffff;
+  border: 0.07em solid #f0d6af;
+  border-radius: 0.63em;
+  padding: 3em;
+  height: 45em;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; /* Ensure padding is included inside the card's width */
+}
+
+.card8 .title {
+  text-align: left;
+  color: #4a4a5a;
+}
+
+.card8 .title h2 {
+  font-size: 1.7em;
+}
+
+.card8 .plot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  width: 100%;  /* Ensures plot fills the horizontal space of the card */
+  height: 100%; /* Optional: Adjust based on your layout needs */
+}
+
+.card9 {
+  background-color: #ffffff;
+  border: 0.07em solid #f0d6af;
+  border-radius: 0.63em;
+  padding: 3em;
+  height: 45em;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Ensure padding is included inside the card's width */
+}
+
+/* Media Query: Adjust layout for smaller screens */
+@media (max-width: 1080px) {
+  .card7 {
+    flex-direction: column-reverse; /* Stack card content vertically */
+    padding: 1.5em;
+    height: auto;
+    max-width: 80%;
+  }
+}

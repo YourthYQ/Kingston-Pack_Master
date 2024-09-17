@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+}
+
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-links a.nav-link {
+  color: #7f7f7f; /* Default color for links */
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0 1rem;
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.navbar .nav-links a.nav-link.current_tab {
+  color: #000000 !important; /* Color for active link */
+}
+
+.navbar .nav-links a.nav-link:hover {
+  color: #4c4c4c !important; /* Hover color */
+}
+
+.navbar .actions {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .actions a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #0066ff;
+  transition: background-color 0.3s ease;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 1080px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar .nav-links {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar .nav-links a.nav-link {
+    padding: 0.75rem 0;
+    font-size: 1.1rem; /* Larger font size for mobile */
+  }
+  .navbar .actions {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .navbar .actions a {
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+  }
+}
+
+.cta-c {
+  background-color: #48b1ee;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.cta-c:hover {
+  background-color: #459bd6; /* Dark blue text on hover */
+  color: #fff;
+}
+
+img {
+  width: 1.2em;
+  display: flex;
+  justify-content: center;
+}
+
+.current_tab {
+  color: #000000 !important; /* Explicitly defining active state */
+}
+
+.other_tab:hover {
+  color: #4c4c4c !important; /* Hover state for other tabs */
+}

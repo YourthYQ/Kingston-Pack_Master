@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.ubuntu-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+.card4 {
+  background-color: #fff;
+  border: 0.07em solid #f0d6af;
+  border-radius: 0.63em;
+  padding: 4em 3em 4em 3em;
+  height: 33.6em;
+  max-width: 62%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box; /* Ensure padding is included inside the card's width */
+}
+
+.title {
+  text-align: left;
+  color: #4a4a5a;
+}
+
+.title h2 {
+  font-size: 1.4em;
+}
+
+.title p {
+  font-size: 0.9em;
+}
+
+.card4 .option {
+  border: 0.125em solid #f0d6af;
+  border-radius: 10px;
+  padding: 1.25em;
+  width: 100%;
+  aspect-ratio: 1.2;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card4 img {
+  width: 80%;
+  margin: 0 auto; /* This centers the image horizontally within the option */
+  display: block; /* Ensures the image behaves as a block element for proper centering */
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option:hover {
+  background-color: #fcf9f5;
+  border: 0.125em solid #e1ae63;
+}
+
+.option:hover {
+  background-color: #fcf9f5;
+  border: 0.125em solid #e1ae63;
+}
+
+.card4 .text {
+  text-align: left;
+  max-width: 400px;
+}
+
+.text h3 {
+  font-size: 0.96em;
+  font-weight: 700;
+  color: #4a4a5a;
+}
+
+.text p {
+  font-size: 0.83em;
+  font-weight: 400;
+  color: #4a4a5a;
+}
+
+.text p strong {
+  font-weight: 600;
+}
+
+/* Media Query: Adjust layout for smaller screens */
+@media (max-width: 1080px) {
+  .card4 {
+    flex-direction: column; /* Stack card content vertically */
+    padding: 1.5em;
+    height: auto;
+    max-width: 80%;
+  }
+
+  .card4 .options {
+    flex-direction: column; /* Stack the options vertically */
+    justify-content: center;
+  }
+
+  .option {
+    width: 100%;
+    margin: 1em 0; /* Add vertical spacing between options */
+  }
+}

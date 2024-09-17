@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=SUSE:wght@100..800&display=swap');
+
+.montserrat-heading {
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+.suse-heading {
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f4f6;
+}
+.navbar {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.hero {
+  background: linear-gradient(to bottom right, #51b4f1, #1b3c58);
+  padding: 10em 3em;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 3.7em;
+  margin-bottom: 1.2em 0;
+}
+.hero p {
+  color: rgba(255, 255, 255, 0.561);
+  font-size: 1.1em;
+  margin: 0.6em 0;
+  padding-top: 1em;
+}
+.hero .btn {
+  background-color: #fff;
+  color: #000000;
+  padding: 0.9em 1.8em;
+  border-radius: 0.62em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .btn:active {
+  color: #fff; /* Change text color to white when clicked */
+  border: 0.125em solid #fff; /* Add white border when clicked */
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes one item to the top and another to the bottom */
+  height: 100%; /* Ensures the container takes full height to distribute the items */
+}
+
+.hero p {
+  color: rgba(rgba(255, 255, 255, 0.458), green, blue, alpha) !important;
+  font-size: 0.9em;
+}
+
+.hero_bottom {
+  background: linear-gradient(to bottom right, #285a81, #020406);
+  padding: 3em 3em;
+  color: #fff;
+}
+
+.merits {
+  display: flex;
+  justify-content: space-around;
+}
+
+.merits > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.merits .parag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.line {
+  width: 0.1em;
+  height: 4em;
+  background-color: rgba(255, 255, 255, 0.15); /* Light color for the vertical line */
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+}
+
+.parag h3 {
+  font-size: 0.95rem;
+  font-weight: 550;
+  margin: 0 0 0.6em 0;
+}
+
+.parag p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.458;
+}
+
+
+
+.why {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  background-color: #ffffff;
+}
+.why .container {
+  text-align: center;
+  max-width: 1200px;
+  padding: 1.25em;
+}
+.why h1 {
+  font-size: 2.25em;
+  color: #333;
+  margin-bottom: 0.625em;
+}
+.why p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 3em;
+}
+.why .features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+.why .feature {
+  flex-basis: 30%;
+}
+.why .icon {
+  font-size: 2.25em;
+  margin-bottom: 1.25em;
+}
+.why .feature h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 0.63em;
+}
+.why .feature p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+}
+
+
+
+.foot {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a446d;
+  color: white;
+  min-height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-color: #1a446d;
+  padding: 1.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer .nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.footer .nav a:hover {
+  text-decoration: underline;
+}
+.footer .social-icons {
+  margin-bottom: 20px;
+}
+.footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.footer .copyright {
+  font-size: 14px;
+  color: #A0AEC0;
+}
+.footer .divider {
+  width: 80%;
+  height: 1px;
+  background-color: #2D4A6F;
+  margin: 20px auto;
+}
