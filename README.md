@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-Prerequisites
+### Prerequisites
 
 To run the application, you need:
 
@@ -19,6 +19,39 @@ To run the application, you need:
 * Python 3.x installed with the Flask library.
 
 Clone the repository:
-```bash
-git clone 
+```shell
+git clone https://github.com/YourthYQ/Pack-Master.git
 ```
+
+### Running the Application
+**Front-End**:
+1. Navigate to the client directory:
+```shell
+cd frontend
+```
+2. Run the front-end development server:
+```shell
+npm run dev
+```
+
+**Back-End**:
+1. Navigate to the server directory:
+```shell
+cd backend
+```
+2. Set up and Activate the virtual environment:
+```shell
+/usr/bin/python3 -m venv venv
+source venv/bin/activate
+```
+3. Install necessary dependencies:
+```shell
+conda deactivate
+venv/bin/python3 -m pip install --upgrade pip Flask flask_cors pandas numpy openpyxl scipy Werkzeug
+```
+4. Run the back-end development server:
+```shell
+flask run
+```
+
+   
