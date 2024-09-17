@@ -3,11 +3,11 @@
 
 Core Features
 
-	•	**Manual Input & File Upload**: Users can either manually input the dimensions of boxes or upload a CSV/Excel file containing box dimensions.
-	•	**Transportation & Pallet Selection**: The app offers different shipping methods and pallet types, including air and sea transportation, and plastic or wooden pallets.
-	•	**3D Visualization**: Packed pallets are visualized in 3D using Plotly.js, showing boxes in various colors, with larger/heavier boxes at the bottom.
-	•	**Label Facing & Support Constraints**: Ensures that all box labels are facing outward and each box is fully supported underneath to prevent damage during shipping.
-	•	**Efficient Packing Algorithms**: Implements algorithms like greedy and genetic algorithms to achieve optimal packing solutions.
+* **Manual Input & File Upload**: Users can either manually input the dimensions of boxes or upload a CSV/Excel file containing box dimensions.
+* **Transportation & Pallet Selection**: The app offers different shipping methods and pallet types, including air and sea transportation, and plastic or wooden pallets.
+* **3D Visualization**: Packed pallets are visualized in 3D using Plotly.js, showing boxes in various colors, with larger/heavier boxes at the bottom.
+* **Label Facing & Support Constraints**: Ensures that all box labels are facing outward and each box is fully supported underneath to prevent damage during shipping.
+* **Efficient Packing Algorithms**: Implements algorithms like greedy and genetic algorithms to achieve optimal packing solutions.
 
 Getting Started
 
@@ -15,7 +15,7 @@ Prerequisites
 
 To run the application, you need:
 
-	•	Node.js and npm installed on your machine.
-	•	Python 3.x installed with the Flask library.
+* Node.js and npm installed on your machine.
+* Python 3.x installed with the Flask library.
 
 Clone the repository:
