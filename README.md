@@ -3,11 +3,11 @@
 
 ## Core Features
 
-* **Manual Input & File Upload**: Users can either manually input the dimensions of boxes or upload a CSV/Excel file containing box dimensions.
-* **Transportation & Pallet Selection**: The app offers different shipping methods and pallet types, including air and sea transportation, and plastic or wooden pallets.
-* **3D Visualization**: Packed pallets are visualized in 3D using Plotly.js, showing boxes in various colors, with larger/heavier boxes at the bottom.
-* **Label Facing & Support Constraints**: Ensures that all box labels are facing outward and each box is fully supported underneath to prevent damage during shipping.
-* **Efficient Packing Algorithms**: Implements algorithms like greedy and genetic algorithms to achieve optimal packing solutions.
+* **3D Visualization**: Uses Plotly.js to render the 3D arrangement of boxes on pallets.
+* **Efficient Palletization Algorithms**: Implements greedy algorithms and biased random key genetic algorithms to ensure optimal packing.
+* **Manual or File Input**: Users can either manually input box sizes or upload files (Excel or CSV) for automatic processing.
+* **Flexible Shipping Options**: Supports multiple transportation methods including air and sea, with different pallet types (plastic, wooden).
+* **Custom Pallet Dimensions**: Provides the ability to customize pallet sizes based on the type of material and transport method.
 
 ## Getting Started
 
@@ -19,3 +19,6 @@ To run the application, you need:
 * Python 3.x installed with the Flask library.
 
 Clone the repository:
+```bash
+git clone 
+```
