@@ -29,7 +29,11 @@ git clone https://github.com/YourthYQ/Pack-Master.git
 ```shell
 cd frontend
 ```
-2. Run the front-end development server:
+2. Install Vite Locally:
+```shell
+npm install vite --save-dev
+```
+3. Run the front-end development server:
 ```shell
 npm run dev
 ```
