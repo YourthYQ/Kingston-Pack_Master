@@ -481,19 +481,19 @@ const ResultsDisplay = ({ solution, palletDims }) => {
 
   const [windowSize, setWindowSize] = useState({
     width: Math.floor(window.innerWidth * 0.83),
-    height: Math.floor(window.innerHeight * 0.68)
+    height: Math.floor(window.innerHeight * 0.68),
   });
 
   useEffect(() => {
     function handleResize() {
       setWindowSize({
         width: Math.floor(window.innerWidth * 0.83),
-        height: Math.floor(window.innerHeight * 0.68)
+        height: Math.floor(window.innerHeight * 0.68),
       });
     }
-  
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   console.log(solution[currentIndex]);
