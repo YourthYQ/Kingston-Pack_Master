@@ -41,13 +41,18 @@ cd backend
 ```
 2. Set up and Activate the virtual environment:
 ```shell
-/usr/bin/python3 -m venv venv
+# Mac
+/opt/homebrew/bin/python3 -m venv myenv
 source venv/bin/activate
+
+# Windows
+python -m virtualenv myenv
+myenv\Scripts\activate
 ```
 3. Install necessary dependencies:
 ```shell
-conda deactivate
-venv/bin/python3 -m pip install --upgrade pip Flask flask_cors pandas numpy openpyxl scipy Werkzeug
+conda deactivate # Optional for Mac
+pip install --upgrade pip Flask flask_cors pandas numpy openpyxl scipy Werkzeug
 ```
 4. Run the back-end development server:
 ```shell
