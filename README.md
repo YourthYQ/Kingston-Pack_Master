@@ -43,7 +43,7 @@ cd backend
 ```shell
 # Mac
 /opt/homebrew/bin/python3 -m venv myenv
-source venv/bin/activate
+source myenv/bin/activate
 
 # Windows
 python -m virtualenv myenv
